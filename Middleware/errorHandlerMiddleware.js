@@ -7,4 +7,7 @@ const errorHandlerMiddleWare = (err, req, res, next) => {
   res.status(statusCode).json({ msg });
 };
 
+//commit
+
+
 export default errorHandlerMiddleWare;
